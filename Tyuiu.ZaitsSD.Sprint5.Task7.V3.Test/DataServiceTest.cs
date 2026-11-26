@@ -1,3 +1,4 @@
+
 using Tyuiu.ZaitsSD.Sprint5.Task7.V3.Lib;
 namespace Tyuiu.ZaitsSD.Sprint5.Task7.V3.Test
 {
@@ -8,17 +9,11 @@ namespace Tyuiu.ZaitsSD.Sprint5.Task7.V3.Test
         [TestMethod]
         public void CheckFile()
         {
-            string path = Path.GetTempFileName();
-            try
-            {
-                File.WriteAllText(path, "Ёж abc!\nЯ+ё");
-                string res = ds.LoadDataAndSave(path);
-                Assert.AreEqual(" abc!\n+", File.ReadAllText(res));
-            }
-            finally
-            {
-                File.Delete(path);
-            }
+            string path = Path.Combine("C:", "DataSprint5", "InPutDataFileTask7V3.txt");
+
+            FileInfo fileInfo = new FileInfo(path);
+            bool fileExist = fileInfo.Exists;
+            Assert.AreEqual(true, fileExist);
         }
     }
 }

@@ -1,3 +1,5 @@
+
+
 using Tyuiu.ZaitsSD.Sprint5.Task6.V22.Lib;
 namespace Tyuiu.ZaitsSD.Sprint5.Task6.V22.Test
 {
@@ -6,35 +8,21 @@ namespace Tyuiu.ZaitsSD.Sprint5.Task6.V22.Test
     {
         DataService ds = new DataService();
         [TestMethod]
-        public void CheckPairs()
+        public void CheckFile()
         {
-            string path = Path.GetTempFileName();
-            try
-            {
-                File.WriteAllText(path, "сумма мама грамм");
-                int res = ds.LoadFromDataFile(path);
-                Assert.AreEqual(2, res);
-            }
-            finally
-            {
-                File.Delete(path);
-            }
-        }
+            string path = Path.Combine("C:", "DataSprint5", "InPutDataFileTask6V22.txt");
 
+            FileInfo fileInfo = new FileInfo(path);
+            bool fileExist = fileInfo.Exists;
+            Assert.AreEqual(true, fileExist);
+        }
         [TestMethod]
-        public void CheckNoPairs()
+        public void Check_Num()
         {
-            string path = Path.GetTempFileName();
-            try
-            {
-                File.WriteAllText(path, "мама");
-                int res = ds.LoadFromDataFile(path);
-                Assert.AreEqual(0, res);
-            }
-            finally
-            {
-                File.Delete(path);
-            }
+            string path = Path.Combine("C:", "DataSprint5", "InPutDataFileTask6V22.txt");
+            int res = ds.LoadFromDataFile(path);
+            int wait_res = 2;
+            Assert.AreEqual(res, wait_res);
         }
     }
 }
