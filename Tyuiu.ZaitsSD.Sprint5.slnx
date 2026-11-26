@@ -1,0 +1,42 @@
+<Solution>
+  <Folder Name="/Task0/">
+    <Project Path="Tyuiu.ZaitsSD.Sprint5.Task0.V7.Lib/Tyuiu.ZaitsSD.Sprint5.Task0.V7.Lib.csproj" />
+    <Project Path="Tyuiu.ZaitsSD.Sprint5.Task0.V7.Test/Tyuiu.ZaitsSD.Sprint5.Task0.V7.Test.csproj" />
+    <Project Path="Tyuiu.ZaitsSD.Sprint5.Task0.V7/Tyuiu.ZaitsSD.Sprint5.Task0.V7.csproj" />
+  </Folder>
+  <Folder Name="/Task1/">
+    <Project Path="Tyuiu.ZaitsSD.Sprint5.Task1.V7.Lib/Tyuiu.ZaitsSD.Sprint5.Task1.V7.Lib.csproj" />
+    <Project Path="Tyuiu.ZaitsSD.Sprint5.Task1.V7.Test/Tyuiu.ZaitsSD.Sprint5.Task1.V7.Test.csproj" />
+    <Project Path="Tyuiu.ZaitsSD.Sprint5.Task1.V7/Tyuiu.ZaitsSD.Sprint5.Task1.V7.csproj" />
+  </Folder>
+  <Folder Name="/Task2/">
+    <Project Path="Tyuiu.ZaitsSD.Sprint5.Task2.V6.Lib/Tyuiu.ZaitsSD.Sprint5.Task2.V6.Lib.csproj" />
+    <Project Path="Tyuiu.ZaitsSD.Sprint5.Task2.V6.Test/Tyuiu.ZaitsSD.Sprint5.Task2.V6.Test.csproj" />
+    <Project Path="Tyuiu.ZaitsSD.Sprint5.Task2.V6/Tyuiu.ZaitsSD.Sprint5.Task2.V6.csproj" />
+  </Folder>
+  <Folder Name="/Task3/">
+    <Project Path="Tyuiu.ZaitsSD.Sprint5.Task3.V21.Lib/Tyuiu.ZaitsSD.Sprint5.Task3.V21.Lib.csproj" />
+    <Project Path="Tyuiu.ZaitsSD.Sprint5.Task3.V21.Test/Tyuiu.ZaitsSD.Sprint5.Task3.V21.Test.csproj" />
+    <Project Path="Tyuiu.ZaitsSD.Sprint5.Task3.V21/Tyuiu.ZaitsSD.Sprint5.Task3.V21.csproj" />
+  </Folder>
+  <Folder Name="/Task4/">
+    <Project Path="Tyuiu.ZaitsSD.Sprint5.Task4.V19.Lib/Tyuiu.ZaitsSD.Sprint5.Task4.V19.Lib.csproj" />
+    <Project Path="Tyuiu.ZaitsSD.Sprint5.Task4.V19.Test/Tyuiu.ZaitsSD.Sprint5.Task4.V19.Test.csproj" />
+    <Project Path="Tyuiu.ZaitsSD.Sprint5.Task4.V19/Tyuiu.ZaitsSD.Sprint5.Task4.V19.csproj" />
+  </Folder>
+  <Folder Name="/Task5/">
+    <Project Path="Tyuiu.ZaitsSD.Sprint5.Task5.V24.Lib/Tyuiu.ZaitsSD.Sprint5.Task5.V24.Lib.csproj" />
+    <Project Path="Tyuiu.ZaitsSD.Sprint5.Task5.V24.Test/Tyuiu.ZaitsSD.Sprint5.Task5.V24.Test.csproj" />
+    <Project Path="Tyuiu.ZaitsSD.Sprint5.Task5.V24/Tyuiu.ZaitsSD.Sprint5.Task5.V24.csproj" />
+  </Folder>
+  <Folder Name="/Task6/">
+    <Project Path="Tyuiu.ZaitsSD.Sprint5.Task6.V22.Lib/Tyuiu.ZaitsSD.Sprint5.Task6.V22.Lib.csproj" />
+    <Project Path="Tyuiu.ZaitsSD.Sprint5.Task6.V22.Test/Tyuiu.ZaitsSD.Sprint5.Task6.V22.Test.csproj" />
+    <Project Path="Tyuiu.ZaitsSD.Sprint5.Task6.V22/Tyuiu.ZaitsSD.Sprint5.Task6.V22.csproj" />
+  </Folder>
+  <Folder Name="/Task7/">
+    <Project Path="Tyuiu.ZaitsSD.Sprint5.Task7.V3.Lib/Tyuiu.ZaitsSD.Sprint5.Task7.V3.Lib.csproj" />
+    <Project Path="Tyuiu.ZaitsSD.Sprint5.Task7.V3.Test/Tyuiu.ZaitsSD.Sprint5.Task7.V3.Test.csproj" />
+    <Project Path="Tyuiu.ZaitsSD.Sprint5.Task7.V3/Tyuiu.ZaitsSD.Sprint5.Task7.V3.csproj" />
+  </Folder>
+</Solution>
